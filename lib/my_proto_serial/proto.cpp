@@ -167,6 +167,10 @@ void proto_tx_info(char cmd, char* txt, char com_port)
   tx_stringa(com_port);
 }
 
+/**************************************************************************************
+***************************************************************************************/
+
+
 /*
 * mette il comando con il char preambolo
 */
@@ -247,7 +251,7 @@ int buff_char_to_long(char* p_from, long* p_result)
 
 
 /******************************************************************************************* */
-#if 0
+//#if 0
 /*
 genera una strinaga con il valore float convertito in char
 nel buffer passato
@@ -269,6 +273,6 @@ char* value_float_to_char(char* txt, float value, char* p_to)
   }
   return p_to;//exit su primo char libero
 }
-#endif
+//#endif
 /******************************************************************************************* */
 
